@@ -23,6 +23,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "commander": "^6.2.0",
+    "date-fns": "^2.23.0",
     "js-yaml": "^3.14.0",
     "node-fetch": "~2.6.1",
     "turndown": "^7.0.0"
