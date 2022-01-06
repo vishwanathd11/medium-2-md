@@ -24,6 +24,12 @@ That's it. The output markdown files will be stored in a sub-directory called `m
 
 The converted markdown files include front matter containing title, description, published date and canonical URL of the original Medium post/story. The images from the Medium posts are downloaded in a sub-directory called `img` inside the output directory.
 
+### Converting local Medium exports directly using the repo
+
+1. clone the repo
+2. run `yarn`
+3. `node index.js convertLocal 'path of the posts directory' -dfi`
+
 ### Optional flags
 
 The `convertLocal` command supports the following optional flags,
